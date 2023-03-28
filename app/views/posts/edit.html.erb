@@ -1,0 +1,10 @@
+<h1>Editing post</h1>
+
+<%= render "form", post: @post %>
+
+<br>
+
+<div>
+<%= link_to 'Edit', edit_shark_post_path(@shark, @post) %> |
+<%= link_to 'Back', shark_posts_path(@shark) %>
+</div>
